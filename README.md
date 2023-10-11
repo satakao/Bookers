@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# DMM WEBCAMPコンテンツ【アプリケーションを完成させよう】
+
+DMM WEBCAMPの学習コンテンツ、アプリケーションを完成させようの課題です。
+

@@ -1,2 +1,23 @@
-<h1>Books#top</h1>
+<h1>Books</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Body</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <%= @books .each do |book| %>
+        <tr>
+            <td><%= book.title %></td>
+            <td><%= book.body %></td>
+            <td><%= link_to "Show", book_path %></td>
+            <td><%= link_to "Edit", edit_book_path %></td>
+            <td><%= link_to "Destoy", book_path(book.id), method: :delete, "data-comfilm" => "本当に削除しますか？" %></td>
+        </tr>
+    <% end %>        
+    </tbody>
+    </thead>
+</table>
 <p>Find me in app/views/books/top.html.erb</p>
