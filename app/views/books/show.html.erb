@@ -1,2 +1,14 @@
-<h1>Books#top</h1>
-<p>Find me in app/views/books/top.html.erb</p>
+
+<div class="show-title">
+  <p><strong>Title:</strong>
+  <%= @book.title %></p>
+</div>
+<div class="show-body">
+  <p><strong>Body:</strong>
+  <%= @book.body %></p>
+</div>
+<div class = "show-botton">
+  <%= link_to "Edit", edit_book_path(@book.id) %>
+  <p>|</p>
+  <%= link_to "Back", books_path %>
+</div>
