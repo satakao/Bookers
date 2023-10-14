@@ -19,6 +19,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   margin:33px;
 }
@@ -26,9 +27,18 @@ body{
 table{
   margin-right:50px;
 }
+thead{
+  text-align: center;
+  
+}
 th{
   
   padding-bottom: 5px;
+  
+}
+td{
+  
+  padding:0 7px 5px 5px;
   
 }
 a{
@@ -44,4 +54,18 @@ a{
 }
 .show-botton p{
   display: inline-block;
+}
+.edit-botton p{
+  display: inline-block;
+}
+.flash{
+  color:green;
+}
+h1{
+  margin:15px 0;
+  
+}
+
+h2{
+  margin:12px 0;
 }
